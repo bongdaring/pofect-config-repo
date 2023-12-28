@@ -31,9 +31,4 @@ spring:
          discovery.locator:
             enabled: true
             lowerCaseServiceId: true
-         routes:
-        - id: msa-practice
-          uri: lb://MSA-PRACTICE
-          predicates:
-            - Path=/msa-practice/**
             
