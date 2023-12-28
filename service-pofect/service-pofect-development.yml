@@ -23,7 +23,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/pofect?characterEncoding=UTF-8&serverTimezone=UTC
     username: pofect
-    password: '{cipher}AQAU76WpL2z2TCGzukbU9wLFLlHjogYTS2egkFycUNWO98u4j5H7qOI/DmMb9uux8NcjzqEqDwCr7aRNTpjJvDcwGig+GTWlYcWJqqLjjxHCT97ysnEfgSZtukoaBqhYoAIMaXigFYRwCyBxb3njma7spCKz9SrLF1LXb1oNG3H+pKh1Rzf2x4QyvKnjCwYazk+AycbxKoNG7lJH6WV/ngOoOjc1rcuhFCmHkQLoQKJmk3/8290Ct9ggtPLPlaydy0xXe0iRPl7sLw3Ey1ltbYBtM7WMimMeamcpXaPjuVSxlaSl0WfyTlZXTPDEj7MvbMmpPx5JkZngYor1DtuelQriTE4Sh2HYJ8P90YDLJbLaJVAADfr94rmwFGXs7BfNTOY='
+    password: '{cipher}AQArEecoxw8rHJxrLTFglOPGw2bUDSJcR+s2BjYWjuFYqOlo3YO2GnQfdiTraCWhXFelXN9zbs/KSOybf/FjAsY4Fru7SuSHdLx/L7Kyke1fUwUeLWRjqTqoI3ciELXmeMxg8ov2UqZs8FopXdlout094B0B0tkxyzRfxO7xB/mSoOMny2JIVtZDBj2WZ4TO2yotv8Y4M8P/F5CRQstJ2Jqt+3aqJV8vhJ6sv3qXGeU+5mvXZxKLSXoPCzCU/7rKy7klCzr514KtZQEETt3CIh43Asue6Bg61WPdXIWIbX9rKDXiyYyM5LKb3aMoWjcQxaiOZLQzn2Rg/vIy6i6Ex+HPlVPXr9XgVWTOGqGjCuEsyGgHsTh6gEwJahPLojaIe1o='
     hikari:
       minimum-idle: 10
       maximum-pool-size: 20
