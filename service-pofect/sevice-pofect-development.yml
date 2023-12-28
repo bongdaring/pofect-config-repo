@@ -3,9 +3,10 @@
 # development configuration
 #
 spring:
-   config:
-      activate:
-         on-profile: dev
+
+   devtools:
+      livereload:
+         enabled: true
          
    datasource:
       driver-class-name: org.mariadb.jdbc.Driver
