@@ -27,6 +27,13 @@ spring:
     hikari:
       minimum-idle: 10
       maximum-pool-size: 20
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:5555/realms/pofect-realm
+          jwk-set-uri: ${spring.security.oauth2.resource-server.jwt.issuer-uri}/protocol/openid-connect/certs
+
 
 logging:
   pattern:
