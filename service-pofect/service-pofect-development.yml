@@ -21,6 +21,7 @@ spring:
       ddl-auto: update  # create
     show-sql: 'true'
   datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/pofect?characterEncoding=UTF-8&serverTimezone=UTC
     username: pofect
     password: '{cipher}AQArEecoxw8rHJxrLTFglOPGw2bUDSJcR+s2BjYWjuFYqOlo3YO2GnQfdiTraCWhXFelXN9zbs/KSOybf/FjAsY4Fru7SuSHdLx/L7Kyke1fUwUeLWRjqTqoI3ciELXmeMxg8ov2UqZs8FopXdlout094B0B0tkxyzRfxO7xB/mSoOMny2JIVtZDBj2WZ4TO2yotv8Y4M8P/F5CRQstJ2Jqt+3aqJV8vhJ6sv3qXGeU+5mvXZxKLSXoPCzCU/7rKy7klCzr514KtZQEETt3CIh43Asue6Bg61WPdXIWIbX9rKDXiyYyM5LKb3aMoWjcQxaiOZLQzn2Rg/vIy6i6Ex+HPlVPXr9XgVWTOGqGjCuEsyGgHsTh6gEwJahPLojaIe1o='
